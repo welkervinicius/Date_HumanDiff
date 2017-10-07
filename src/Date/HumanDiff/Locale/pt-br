@@ -1,0 +1,61 @@
+<?php
+/**
+ * Part of Date_HumanDiff
+ *
+ * PHP version 5
+ *
+ * @category Date
+ * @package  Date_HumanDiff
+ * @author   Christian Weiske <cweiske@php.net>
+ * @license  http://www.gnu.org/copyleft/lesser.html LGPL
+ * @link     http://pear.php.net/package/Date_HumanDiff
+ */
+require_once 'Date/HumanDiff/LocaleArray.php';
+/**
+ * Brazilian Portuguese translation of the english messages.
+ *
+ * @category Date
+ * @package  Date_HumanDiff
+ * @author   Christian Weiske <cweiske@php.net>
+ * @license  http://www.gnu.org/copyleft/lesser.html LGPL
+ * @version  Release: @package_version@
+ * @link     http://pear.php.net/package/Date_HumanDiff
+ */
+class Date_HumanDiff_Locale_de extends Date_HumanDiff_LocaleArray
+{
+    /**
+     * Translation array.
+     * Key is the english variant, value the brazilian portuguese translation.
+     *
+     * @var array
+     */
+    public $trans = array(
+        'just now'       => 'agora mesmo',
+        'a minute ago'   => 'a 1 minuto',
+        '%d minutes ago' => 'a %d minutos',
+        'an hour ago'    => 'a 1 hora',
+        '%d hours ago'   => 'a %d horas',
+        'yesterday'      => 'ontem',
+        '%d days ago'    => 'a %d dias',
+        'a week ago'     => 'a 1 semana',
+        '%d weeks ago'   => 'a %d semanas',
+        'a month ago'    => 'a 1 mês',
+        '%d months ago'  => 'a %d meses',
+        'a year ago'     => 'a 1 ano',
+        '%d years ago'   => 'a %d anos',
+        'in a moment'   => 'em um momento',
+        'in a minute'   => 'em um minuto',
+        'in %d minutes' => 'em %d minutos',
+        'in an hour'    => 'em uma hora',
+        'in %d hours'   => 'em %d horas',
+        'tomorrow'      => 'amanhã',
+        'in %d days'    => 'em %d dias',
+        'in a week'     => 'em uma semana',
+        'in %d weeks'   => 'em %d semanas',
+        'in a month'    => 'em um mês',
+        'in %d months'  => 'em %d meses',
+        'in a year'     => 'em um ano',
+        'in %d years'   => 'em %d anos',
+    );
+}
+?>
